@@ -1,0 +1,33 @@
+.footer {
+  background: var(--card);
+  border-top: 1px solid var(--border);
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  color: var(--muted-foreground);
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLink {
+  color: var(--muted-foreground);
+  transition: color 0.2s ease;
+}
+
+.socialLink:hover {
+  color: var(--foreground);
+}

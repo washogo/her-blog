@@ -1,0 +1,45 @@
+.profile {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 12px rgba(var(--primary), 0.05);
+}
+
+.header {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 3px solid hsl(var(--primary));
+  padding: 3px;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--foreground);
+}
+
+.title {
+  color: hsl(var(--primary));
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.description {
+  color: var(--foreground);
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
